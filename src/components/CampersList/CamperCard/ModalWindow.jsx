@@ -42,7 +42,7 @@ export default function ModalWindow({ isOpen, handleModalClose, camperItems }) {
           <p className={css.camperLocation}>{camperItems.location}</p>
         </div>
       </div>
-      <p className={css.camperPrice}>€{camperItems.price}.00</p>
+      <p className={css.camperPrice}>€{camperItems.price},00</p>
       <div className={css.imagesWrp}>
         <div className={css.camperImgWrp}>
           <img src={camperItems.gallery[0]} className={css.camperImg} />

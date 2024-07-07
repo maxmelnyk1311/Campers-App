@@ -67,7 +67,7 @@ export default function CamperCard({ camperItems }) {
         <div className={css.camperHeader}>
           <h2 className={css.camperName}>{camperItems.name}</h2>
           <div className={css.camperHeaderWrp}>
-            <p className={css.camperPrice}>€{camperItems.price}.00</p>
+            <p className={css.camperPrice}>€{camperItems.price},00</p>
             <button
               className={css.favoritesBtn}
               onClick={() => handleClick(camperItems._id)}
