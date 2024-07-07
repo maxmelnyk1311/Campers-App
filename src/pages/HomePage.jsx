@@ -2,10 +2,11 @@ export default function HomePage() {
     return (
         <>
             <p>
-                Hello, world! This is my final react course homework. It is first minimalistic version of this project, will improve it in the future. 
+                Hello, world! This is CampersApp - application for finding campers. There is catalog page, where wou can watch all of them and add some of them to your favorites. 
             </p>
-            <p>What is this and how it works - you need register account and then you can save contacts, like it is your mobile phone.</p>
+            <p>
+                Have a good day!
+            </p>
         </>
-        
     )
 }

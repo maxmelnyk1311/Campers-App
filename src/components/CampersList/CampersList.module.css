@@ -1,0 +1,32 @@
+.campersListWrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campersList {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.loadMoreBtn {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 145px;
+    height: 56px;
+    border: 1px solid rgba(71, 84, 103, 0.2);
+    border-radius: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(16, 24, 40, 1);
+}

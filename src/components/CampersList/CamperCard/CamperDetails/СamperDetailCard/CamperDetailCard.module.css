@@ -1,0 +1,28 @@
+.detailCard {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: #F2F4F7;
+
+    padding: 12px 18px;
+}
+
+.detailIcon {
+    stroke: rgba(16, 24, 40, 1);
+}
+
+.detailIconBed {
+    stroke: rgba(16, 24, 40, 1);
+    fill: transparent;
+}
+
+.detailItemText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.detailItemText::first-letter {
+    text-transform: capitalize;
+}

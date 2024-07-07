@@ -1,0 +1,131 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(27, 27, 27, 0.8);
+}
+
+.modalWindowWrp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  width: 982px;
+  /* height: 720px; */
+  border-radius: 40px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.modalWindow {
+  display: flex;
+  flex-direction: column;
+}
+
+.closeBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+
+  top: 40px;
+  right: 40px;
+}
+
+.closeBtnIcon {
+  stroke: rgba(16, 24, 40, 1);
+  fill: rgba(16, 24, 40, 1);
+}
+
+.camperName {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(16, 24, 40, 1);
+  margin-bottom: 8px;
+}
+
+.camperPrice {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(16, 24, 40, 1);
+  margin-bottom: 16px;
+}
+
+.camperItemsWrp {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.camperReviewsWrp {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.camperReviews {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(16, 24, 40, 1);
+  position: relative;
+}
+
+.camperReviews:after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  right: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(16, 24, 40, 1);
+}
+
+.locationIcon {
+  fill: transparent;
+  stroke: rgba(16, 24, 40, 1);
+}
+
+.camperLocation {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(16, 24, 40, 1);
+}
+
+.camperLocationWrp {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.imagesWrp {
+  display: flex;
+  gap: 16px;
+}
+
+.camperImgWrp {
+  width: 290px;
+  height: 310px;
+  margin-bottom: 24px;
+}
+
+.camperImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.camperDescription {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(71, 84, 103, 1);
+}
+

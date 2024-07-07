@@ -1,7 +1,8 @@
 /* -------------BASIC STYLES---------------- */
+@import url(./css/fonts.css);
+
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
+  font-family: "Inter";
 }
 
 h1,
@@ -26,7 +27,6 @@ img {
   max-width: 100%;
 }
 
-/* -------------STYLES FOR HOMEWORK ----------*/
 :root {
   width: 1200px;
   margin: auto;
